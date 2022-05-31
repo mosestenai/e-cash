@@ -26,7 +26,7 @@ function IndividualContribution() {
   const{user} = useContext(AuthContext)
   const location = useLocation();  
   const path = location.pathname.split("/")[2];
-  const url = `https://msaada-app.netlify.app/contribution/${path}`
+  const url = `https://msaada-site.netlify.app/contribution/${path}`
   const [contribution, setContribution] = useState({});
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
