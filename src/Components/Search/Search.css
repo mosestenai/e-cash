@@ -1,0 +1,26 @@
+.searchBtn{
+    width: 100px;
+    height: 35px;
+    background-color: teal;
+    border: none;
+    cursor: pointer;
+    
+}
+.search:focus{
+    outline: none;
+    
+}
+.search{
+    background:white;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    color: black;
+    cursor:pointer;
+}
+.searchWrapper{
+    display: flex;
+    align-items:center;
+    margin-top: 20px;
+    margin-left: 20px;
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+.pageNotFound {
+  display: flex;
+  background-color: white;
+  height: 100vh;
+  justify-content: space-between;
+}
+.imageWrapper {
+  flex: 5;
+}
+.pageNotFoundInfo {
+  flex: 7;
+}
+.infoWrapper {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+.pageNotFoundImage {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  
+}
+.pageNotFoundButton {
+  border-radius: 20px;
+  border: none;
+  color: white;
+  width: 130px;
+  height: 35px;
+  padding: 5px 2px;
+  background-color: rgb(151, 151, 173);
+  margin-top: 30px;
+}
+.pageNotFoundTitle {
+  margin-top: 30px;
+  font-weight: 800;
+  font-size: 40px;
+  color: rgb(5, 5, 46);
+  letter-spacing: 1px;
+}
+.infoWrapper>p {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 20px;
+  color: rgb(165, 164, 164);
+  font-family: poppins, sans-serif;
+}
+.homeBtn {
+  background-color: rgb(121, 121, 248);
+  width: 100%;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+}

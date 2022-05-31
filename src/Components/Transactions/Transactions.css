@@ -1,0 +1,147 @@
+.transactionsWrapper{
+    display: flex;
+   
+}
+.transactions{
+    flex: 4;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-x:auto;
+    
+}
+@media screen and (max-width:600px){
+  table{
+    margin: 0px !important;
+    width: 100% !important;
+  }
+  tr{
+    width: 100% !important;
+
+  }
+  th{
+    font-size: 14px !important;
+
+   }
+  
+}
+td , th{
+  padding: 8px 12px;
+  text-align: center;
+  
+ 
+ }
+ th{
+  background-color: #3b5998;
+  color: #fafafa;
+  font-family: 'Open Sans',Sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+ }
+ table{
+  
+  margin-top: 2%;
+  width: 100%; 
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64,64,64,.7);
+  border-radius: 12px 12px 12px 12px;
+   
+ }
+ tr{
+  width: 100%;
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+ }
+ tr:nth-child(even){
+  background-color: #eeeeee;
+ }
+ .completed {
+  background-color: #c8e6c9;
+  color: #388e3c;
+  height: 30px;
+  justify-content: center;
+  
+}
+ 
+table .pending {
+  background-color: #fff0c2;
+  color: #a68b00;
+  height: 30px;
+  justify-content: center;
+  border-radius: 5px;
+}
+.pendingParagraph{
+  text-align: center;
+}
+.nextLink{
+  background-color: teal;
+  width: 100px !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nextLink{
+  background-color: teal;
+  width: 100px !important;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+}
+.previousLink{
+
+  background-color: teal;
+  width: 100px !important;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+ 
+}
+.pagination{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-evenly;
+ 
+}
+.activeButton{
+  background-color: teal;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* .filter{
+    position: absolute;
+    height: 1000px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+   }
+   body{
+       height: 1000px;
+   }
+  
+  
+  
+  
+   table .status-pending {
+       background-color: #fff0c2;
+       color: #a68b00;
+       height: 30px;
+       justify-content: center;
+       border-radius: 5px;
+     }
+   
+     /*
+     table .status-unpaid {
+       background-color: #ffcdd2;
+       color: #c62828;
+       height: 30px;
+       justify-content: center;
+       border-radius: 5px;
+     } */
+   
